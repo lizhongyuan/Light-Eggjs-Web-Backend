@@ -1,0 +1,68 @@
+{
+  "name": "general-light-eggjs-web-backend",
+  "version": "0.1.0",
+  "description": "general-light-eggjs-web-backend",
+  "private": true,
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bluebird": "^3.5.5",
+    "dash-logger": "git+https://github.com/lizhongyuan/dash-logger.git",
+    "decimal.js": "^10.3.1",
+    "egg": "^2.2.1",
+    "egg-cors": "2.1.2",
+    "egg-logger": "^2.3.1",
+    "egg-mongoose": "^3.1.1",
+    "egg-passport": "2.0.1",
+    "egg-redis": "^2.3.0",
+    "egg-scripts": "^2.11.0",
+    "egg-validate": "2.0.2",
+    "exceljs": "^1.7.0",
+    "ioredis": "^4.5.1",
+    "koa-proxy": "^0.9.0",
+    "koa2-proxy-middleware": "0.0.4",
+    "mime": "^2.4.0",
+    "node-uuid": "^1.4.8",
+    "request-promise": "^4.2.2",
+    "underscore": "^1.13.1",
+    "xlsx": "^0.14.1",
+    "xmlreader": "^0.2.3"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0",
+    "nyc": "^14.1.1",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev",
+    "start": "npm run dev",
+    "stop": "egg-scripts stop --title=general-light-eggjs-web-backend",
+    "prod": "egg-scripts start --env=prod --title=general-light-eggjs-web-backend --daemon",
+    "restart_prod": "npm run stop && npm run prod",
+    "test": "egg-bin test",
+    "restart_test": "npm run stop && npm run test",
+    "debug": "egg-bin debug",
+    "test_lint": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "CNBMTECH"
+}

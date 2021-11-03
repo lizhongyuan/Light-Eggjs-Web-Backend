@@ -1,0 +1,315 @@
+{
+  "keys": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.local.js",
+  "middleware": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.local.js",
+  "cluster": {
+    "listen": {
+      "port": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+      "hostname": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+      "path": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "request": {
+      "timeout": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js"
+    },
+    "enableDNSCache": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "httpAgent": {
+      "keepAlive": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+    "appLogName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+    "coreLogName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+    "agentLogName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+    "errorLogName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+    "encoding": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "env": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "level": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "outputJSON": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "buffer": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "file": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+      "consoleLevel": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+      "useSession": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "headerName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "queryName": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "policy": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "bodyParser": {
+    "jsonLimit": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+    "formLimit": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/config/config.default.js",
+    "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "encoding": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "strict": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "depth": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-session/config/config.default.js",
+    "key": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-watcher/config/config.default.js",
+      "development": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "files": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-static/config/config.default.js",
+    "dir": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-static/config/config.default.js",
+    "preload": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-static/config/config.default.js",
+    "buffer": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-view/config/config.default.js",
+    "cache": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-view/config/config.default.js",
+    "mapping": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-view/config/config.default.js"
+  },
+  "cors": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-cors/config/config.default.js",
+  "mongoose": {
+    "url": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-mongoose/config/config.default.js",
+    "options": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "env": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "name": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "proxy": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "version": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "description": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "private": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@hapi/joi": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "bluebird": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "dash-logger": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "decimal.js": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-cors": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-logger": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-passport": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-redis": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-validate": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "exceljs": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "ioredis": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "koa-proxy": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "koa2-proxy-middleware": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "mime": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "node-uuid": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "request-promise": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "underscore": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "xlsx": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "xmlreader": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "autod-egg": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-bin": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-ci": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "egg-mock": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "eslint": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "nyc": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "dev": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "start": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "stop": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "prod": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "restart_prod": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "test": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "restart_test": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "debug": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "test_lint": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "test-local": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "cov": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "lint": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "ci": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "autod": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+      "url": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+    },
+    "author": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "HOME": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "rundir": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "notFound": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "sitefile": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "middlewares": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "httpClient": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "logging": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/home/svenlee/workspace/self/node/cyberdash-light-eggjs-web-backend/node_modules/egg/config/config.default.js"
+}

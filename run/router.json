@@ -1,0 +1,42 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/demo/foo/add",
+    "regexp": "/^\\/demo\\/foo\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "addOperationBodyValidator",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/demo/foo/minus",
+    "regexp": "/^\\/demo\\/foo\\/minus(?:\\/(?=$))?$/",
+    "stack": [
+      "minusOperationBodyValidator",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/demo/foo/divide",
+    "regexp": "/^\\/demo\\/foo\\/divide(?:\\/(?=$))?$/",
+    "stack": [
+      "divideOperationBodyValidator",
+      "divisorValidator",
+      "wrappedController"
+    ]
+  }
+]
