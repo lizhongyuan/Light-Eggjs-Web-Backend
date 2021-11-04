@@ -32,7 +32,7 @@ b. 编程实现
 ## 3 Controller层
 MVC中的Controller, 作为Http请求与业务Service解耦的层次, 使用Eggjs的Controller
 ## 4 Service层
-真正的业务层次, 使用Eggjs的Controller
+真正的业务层次, 使用Eggjs的Service
 ## 5 Dao层
 数据访问层, 封装数据库读写的调用(可以放在Service层)
 ## 6 Common层
