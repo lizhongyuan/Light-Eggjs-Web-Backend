@@ -27,7 +27,7 @@ a. 解放业务代码中的异常处理
 b. 捕获全部业务代码产生的异常, 保证稳定性  
 ### 2.2 校验中间件
 对request进行检查, 两种方式:  
-a. 使用Hapi/joi
+a. 使用Hapi/joi  
 b. 编程实现
 ## 3 Controller层
 MVC中的Controller, 作为Http请求与业务Service解耦的层次, 使用Eggjs的Controller
