@@ -45,8 +45,6 @@
     "dev": "egg-bin dev",
     "start": "npm run dev",
     "stop": "egg-scripts stop --title=general-light-eggjs-web-backend",
-    "prod": "egg-scripts start --env=prod --title=general-light-eggjs-web-backend --daemon",
-    "restart_prod": "npm run stop && npm run prod",
     "test": "egg-bin test",
     "restart_test": "npm run stop && npm run test",
     "debug": "egg-bin debug",
@@ -63,5 +61,5 @@
     "type": "git",
     "url": ""
   },
-  "author": "lzy"
+  "author": "fenixlee@163.com"
 }
