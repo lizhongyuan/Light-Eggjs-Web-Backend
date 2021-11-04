@@ -63,7 +63,7 @@ MVC中的Controller, 作为Http请求与业务Service解耦的层次, 使用Eggj
 ```
 npm install
 ```
-使用Mocha, 执行  
+执行  
 ```
 npm run test
 ```
