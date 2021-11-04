@@ -50,7 +50,6 @@
     "test": "egg-bin test",
     "restart_test": "npm run stop && npm run test",
     "debug": "egg-bin debug",
-    "test_lint": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
@@ -64,5 +63,5 @@
     "type": "git",
     "url": ""
   },
-  "author": "CNBMTECH"
+  "author": "lzy"
 }
